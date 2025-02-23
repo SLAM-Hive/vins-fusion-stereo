@@ -5,13 +5,13 @@
 imu: 0         
 num_of_cam: 2  
 
-imu_topic: "/imu0"
+imu_topic: ""
 image0_topic: "$image0_topic"
 image1_topic: "$image1_topic"
 output_path: "/home/output"
 
-cam0_calib: "cam0_mei.yaml"
-cam1_calib: "cam1_mei.yaml"
+cam0_calib: "$cam0_calib"
+cam1_calib: "$cam1_calib"
 image_width: $image_width
 image_height: $image_height
    
